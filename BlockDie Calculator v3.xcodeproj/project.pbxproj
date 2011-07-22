@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B551C5E13D9FCCA0079EB05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B551C5D13D9FCCA0079EB05 /* UIKit.framework */; };
+		5B551C6013D9FCCA0079EB05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B551C5F13D9FCCA0079EB05 /* Foundation.framework */; };
+		5B551C6213D9FCCA0079EB05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B551C6113D9FCCA0079EB05 /* CoreGraphics.framework */; };
+		5B551C6813D9FCCA0079EB05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B551C6613D9FCCA0079EB05 /* InfoPlist.strings */; };
+		5B551C6A13D9FCCA0079EB05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B551C6913D9FCCA0079EB05 /* main.m */; };
+		5B551C6E13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B551C6D13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.m */; };
+		5B551C7113D9FCCA0079EB05 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B551C6F13D9FCCA0079EB05 /* MainWindow.xib */; };
+		5B551C7413D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B551C7313D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.m */; };
+		5B551C7713D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B551C7513D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.xib */; };
+		5B551C7F13D9FCCA0079EB05 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B551C7E13D9FCCA0079EB05 /* SenTestingKit.framework */; };
+		5B551C8013D9FCCA0079EB05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B551C5D13D9FCCA0079EB05 /* UIKit.framework */; };
+		5B551C8113D9FCCA0079EB05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B551C5F13D9FCCA0079EB05 /* Foundation.framework */; };
+		5B551C8213D9FCCA0079EB05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B551C6113D9FCCA0079EB05 /* CoreGraphics.framework */; };
+		5B551C8A13D9FCCA0079EB05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B551C8813D9FCCA0079EB05 /* InfoPlist.strings */; };
+		5B551C8C13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5B551C8B13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.h */; };
+		5B551C8E13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B551C8D13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B551C8313D9FCCA0079EB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B551C5013D9FCC90079EB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B551C5813D9FCCA0079EB05;
+			remoteInfo = "BlockDie Calculator v3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B551C5913D9FCCA0079EB05 /* BlockDie Calculator v3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlockDie Calculator v3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B551C5D13D9FCCA0079EB05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B551C5F13D9FCCA0079EB05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B551C6113D9FCCA0079EB05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B551C6513D9FCCA0079EB05 /* BlockDie Calculator v3-Info.plist */ = {isa = PBXFileReference; path = "BlockDie Calculator v3-Info.plist"; sourceTree = "<group>"; };
+		5B551C6713D9FCCA0079EB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B551C6913D9FCCA0079EB05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B551C6B13D9FCCA0079EB05 /* BlockDie Calculator v3-Prefix.pch */ = {isa = PBXFileReference; path = "BlockDie Calculator v3-Prefix.pch"; sourceTree = "<group>"; };
+		5B551C6C13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.h */ = {isa = PBXFileReference; path = BlockDie_Calculator_v3AppDelegate.h; sourceTree = "<group>"; };
+		5B551C6D13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDie_Calculator_v3AppDelegate.m; sourceTree = "<group>"; };
+		5B551C7013D9FCCA0079EB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5B551C7213D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.h */ = {isa = PBXFileReference; path = BlockDie_Calculator_v3ViewController.h; sourceTree = "<group>"; };
+		5B551C7313D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDie_Calculator_v3ViewController.m; sourceTree = "<group>"; };
+		5B551C7613D9FCCA0079EB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BlockDie_Calculator_v3ViewController.xib; sourceTree = "<group>"; };
+		5B551C7D13D9FCCA0079EB05 /* BlockDie Calculator v3Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlockDie Calculator v3Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B551C7E13D9FCCA0079EB05 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B551C8713D9FCCA0079EB05 /* BlockDie Calculator v3Tests-Info.plist */ = {isa = PBXFileReference; path = "BlockDie Calculator v3Tests-Info.plist"; sourceTree = "<group>"; };
+		5B551C8913D9FCCA0079EB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B551C8B13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDie_Calculator_v3Tests.h; sourceTree = "<group>"; };
+		5B551C8D13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDie_Calculator_v3Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B551C5613D9FCCA0079EB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B551C5E13D9FCCA0079EB05 /* UIKit.framework in Frameworks */,
+				5B551C6013D9FCCA0079EB05 /* Foundation.framework in Frameworks */,
+				5B551C6213D9FCCA0079EB05 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B551C7913D9FCCA0079EB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B551C7F13D9FCCA0079EB05 /* SenTestingKit.framework in Frameworks */,
+				5B551C8013D9FCCA0079EB05 /* UIKit.framework in Frameworks */,
+				5B551C8113D9FCCA0079EB05 /* Foundation.framework in Frameworks */,
+				5B551C8213D9FCCA0079EB05 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B551C4E13D9FCC90079EB05 = {
+			isa = PBXGroup;
+			children = (
+				5B551C6313D9FCCA0079EB05 /* BlockDie Calculator v3 */,
+				5B551C8513D9FCCA0079EB05 /* BlockDie Calculator v3Tests */,
+				5B551C5C13D9FCCA0079EB05 /* Frameworks */,
+				5B551C5A13D9FCCA0079EB05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B551C5A13D9FCCA0079EB05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B551C5913D9FCCA0079EB05 /* BlockDie Calculator v3.app */,
+				5B551C7D13D9FCCA0079EB05 /* BlockDie Calculator v3Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B551C5C13D9FCCA0079EB05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B551C5D13D9FCCA0079EB05 /* UIKit.framework */,
+				5B551C5F13D9FCCA0079EB05 /* Foundation.framework */,
+				5B551C6113D9FCCA0079EB05 /* CoreGraphics.framework */,
+				5B551C7E13D9FCCA0079EB05 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B551C6313D9FCCA0079EB05 /* BlockDie Calculator v3 */ = {
+			isa = PBXGroup;
+			children = (
+				5B551C6C13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.h */,
+				5B551C6D13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.m */,
+				5B551C6F13D9FCCA0079EB05 /* MainWindow.xib */,
+				5B551C7213D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.h */,
+				5B551C7313D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.m */,
+				5B551C7513D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.xib */,
+				5B551C6413D9FCCA0079EB05 /* Supporting Files */,
+			);
+			path = "BlockDie Calculator v3";
+			sourceTree = "<group>";
+		};
+		5B551C6413D9FCCA0079EB05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B551C6513D9FCCA0079EB05 /* BlockDie Calculator v3-Info.plist */,
+				5B551C6613D9FCCA0079EB05 /* InfoPlist.strings */,
+				5B551C6913D9FCCA0079EB05 /* main.m */,
+				5B551C6B13D9FCCA0079EB05 /* BlockDie Calculator v3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B551C8513D9FCCA0079EB05 /* BlockDie Calculator v3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5B551C8B13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.h */,
+				5B551C8D13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.m */,
+				5B551C8613D9FCCA0079EB05 /* Supporting Files */,
+			);
+			path = "BlockDie Calculator v3Tests";
+			sourceTree = "<group>";
+		};
+		5B551C8613D9FCCA0079EB05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B551C8713D9FCCA0079EB05 /* BlockDie Calculator v3Tests-Info.plist */,
+				5B551C8813D9FCCA0079EB05 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B551C5813D9FCCA0079EB05 /* BlockDie Calculator v3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B551C9113D9FCCA0079EB05 /* Build configuration list for PBXNativeTarget "BlockDie Calculator v3" */;
+			buildPhases = (
+				5B551C5513D9FCCA0079EB05 /* Sources */,
+				5B551C5613D9FCCA0079EB05 /* Frameworks */,
+				5B551C5713D9FCCA0079EB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlockDie Calculator v3";
+			productName = "BlockDie Calculator v3";
+			productReference = 5B551C5913D9FCCA0079EB05 /* BlockDie Calculator v3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B551C7C13D9FCCA0079EB05 /* BlockDie Calculator v3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B551C9413D9FCCA0079EB05 /* Build configuration list for PBXNativeTarget "BlockDie Calculator v3Tests" */;
+			buildPhases = (
+				5B551C7813D9FCCA0079EB05 /* Sources */,
+				5B551C7913D9FCCA0079EB05 /* Frameworks */,
+				5B551C7A13D9FCCA0079EB05 /* Resources */,
+				5B551C7B13D9FCCA0079EB05 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B551C8413D9FCCA0079EB05 /* PBXTargetDependency */,
+			);
+			name = "BlockDie Calculator v3Tests";
+			productName = "BlockDie Calculator v3Tests";
+			productReference = 5B551C7D13D9FCCA0079EB05 /* BlockDie Calculator v3Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B551C5013D9FCC90079EB05 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5B551C5313D9FCC90079EB05 /* Build configuration list for PBXProject "BlockDie Calculator v3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B551C4E13D9FCC90079EB05;
+			productRefGroup = 5B551C5A13D9FCCA0079EB05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B551C5813D9FCCA0079EB05 /* BlockDie Calculator v3 */,
+				5B551C7C13D9FCCA0079EB05 /* BlockDie Calculator v3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B551C5713D9FCCA0079EB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B551C6813D9FCCA0079EB05 /* InfoPlist.strings in Resources */,
+				5B551C7113D9FCCA0079EB05 /* MainWindow.xib in Resources */,
+				5B551C7713D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B551C7A13D9FCCA0079EB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B551C8A13D9FCCA0079EB05 /* InfoPlist.strings in Resources */,
+				5B551C8C13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B551C7B13D9FCCA0079EB05 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B551C5513D9FCCA0079EB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B551C6A13D9FCCA0079EB05 /* main.m in Sources */,
+				5B551C6E13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.m in Sources */,
+				5B551C7413D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B551C7813D9FCCA0079EB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B551C8E13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B551C8413D9FCCA0079EB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B551C5813D9FCCA0079EB05 /* BlockDie Calculator v3 */;
+			targetProxy = 5B551C8313D9FCCA0079EB05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B551C6613D9FCCA0079EB05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B551C6713D9FCCA0079EB05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B551C6F13D9FCCA0079EB05 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B551C7013D9FCCA0079EB05 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5B551C7513D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B551C7613D9FCCA0079EB05 /* en */,
+			);
+			name = BlockDie_Calculator_v3ViewController.xib;
+			sourceTree = "<group>";
+		};
+		5B551C8813D9FCCA0079EB05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B551C8913D9FCCA0079EB05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B551C8F13D9FCCA0079EB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B551C9013D9FCCA0079EB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B551C9213D9FCCA0079EB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockDie Calculator v3/BlockDie Calculator v3-Prefix.pch";
+				INFOPLIST_FILE = "BlockDie Calculator v3/BlockDie Calculator v3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B551C9313D9FCCA0079EB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockDie Calculator v3/BlockDie Calculator v3-Prefix.pch";
+				INFOPLIST_FILE = "BlockDie Calculator v3/BlockDie Calculator v3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5B551C9513D9FCCA0079EB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlockDie Calculator v3.app/BlockDie Calculator v3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockDie Calculator v3/BlockDie Calculator v3-Prefix.pch";
+				INFOPLIST_FILE = "BlockDie Calculator v3Tests/BlockDie Calculator v3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5B551C9613D9FCCA0079EB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlockDie Calculator v3.app/BlockDie Calculator v3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockDie Calculator v3/BlockDie Calculator v3-Prefix.pch";
+				INFOPLIST_FILE = "BlockDie Calculator v3Tests/BlockDie Calculator v3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B551C5313D9FCC90079EB05 /* Build configuration list for PBXProject "BlockDie Calculator v3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B551C8F13D9FCCA0079EB05 /* Debug */,
+				5B551C9013D9FCCA0079EB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B551C9113D9FCCA0079EB05 /* Build configuration list for PBXNativeTarget "BlockDie Calculator v3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B551C9213D9FCCA0079EB05 /* Debug */,
+				5B551C9313D9FCCA0079EB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B551C9413D9FCCA0079EB05 /* Build configuration list for PBXNativeTarget "BlockDie Calculator v3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B551C9513D9FCCA0079EB05 /* Debug */,
+				5B551C9613D9FCCA0079EB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B551C5013D9FCC90079EB05 /* Project object */;
+}
