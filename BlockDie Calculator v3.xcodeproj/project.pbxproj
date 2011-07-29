@@ -23,6 +23,7 @@
 		5B551C8A13D9FCCA0079EB05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B551C8813D9FCCA0079EB05 /* InfoPlist.strings */; };
 		5B551C8C13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5B551C8B13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.h */; };
 		5B551C8E13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B551C8D13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.m */; };
+		5BB9ECCB13E084E700287887 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9ECCA13E084E700287887 /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +41,24 @@
 		5B551C5D13D9FCCA0079EB05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B551C5F13D9FCCA0079EB05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B551C6113D9FCCA0079EB05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5B551C6513D9FCCA0079EB05 /* BlockDie Calculator v3-Info.plist */ = {isa = PBXFileReference; path = "BlockDie Calculator v3-Info.plist"; sourceTree = "<group>"; };
+		5B551C6513D9FCCA0079EB05 /* BlockDie Calculator v3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockDie Calculator v3-Info.plist"; sourceTree = "<group>"; };
 		5B551C6713D9FCCA0079EB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B551C6913D9FCCA0079EB05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B551C6B13D9FCCA0079EB05 /* BlockDie Calculator v3-Prefix.pch */ = {isa = PBXFileReference; path = "BlockDie Calculator v3-Prefix.pch"; sourceTree = "<group>"; };
-		5B551C6C13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.h */ = {isa = PBXFileReference; path = BlockDie_Calculator_v3AppDelegate.h; sourceTree = "<group>"; };
+		5B551C6B13D9FCCA0079EB05 /* BlockDie Calculator v3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockDie Calculator v3-Prefix.pch"; sourceTree = "<group>"; };
+		5B551C6C13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDie_Calculator_v3AppDelegate.h; sourceTree = "<group>"; };
 		5B551C6D13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDie_Calculator_v3AppDelegate.m; sourceTree = "<group>"; };
 		5B551C7013D9FCCA0079EB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		5B551C7213D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.h */ = {isa = PBXFileReference; path = BlockDie_Calculator_v3ViewController.h; sourceTree = "<group>"; };
+		5B551C7213D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDie_Calculator_v3ViewController.h; sourceTree = "<group>"; };
 		5B551C7313D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDie_Calculator_v3ViewController.m; sourceTree = "<group>"; };
 		5B551C7613D9FCCA0079EB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BlockDie_Calculator_v3ViewController.xib; sourceTree = "<group>"; };
 		5B551C7D13D9FCCA0079EB05 /* BlockDie Calculator v3Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlockDie Calculator v3Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B551C7E13D9FCCA0079EB05 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5B551C8713D9FCCA0079EB05 /* BlockDie Calculator v3Tests-Info.plist */ = {isa = PBXFileReference; path = "BlockDie Calculator v3Tests-Info.plist"; sourceTree = "<group>"; };
+		5B551C8713D9FCCA0079EB05 /* BlockDie Calculator v3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockDie Calculator v3Tests-Info.plist"; sourceTree = "<group>"; };
 		5B551C8913D9FCCA0079EB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B551C8B13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDie_Calculator_v3Tests.h; sourceTree = "<group>"; };
 		5B551C8D13D9FCCA0079EB05 /* BlockDie_Calculator_v3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDie_Calculator_v3Tests.m; sourceTree = "<group>"; };
+		5BB9ECC913E084E700287887 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		5BB9ECCA13E084E700287887 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,12 +119,9 @@
 		5B551C6313D9FCCA0079EB05 /* BlockDie Calculator v3 */ = {
 			isa = PBXGroup;
 			children = (
-				5B551C6C13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.h */,
-				5B551C6D13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.m */,
-				5B551C6F13D9FCCA0079EB05 /* MainWindow.xib */,
-				5B551C7213D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.h */,
-				5B551C7313D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.m */,
-				5B551C7513D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.xib */,
+				5BB9ECC713E0848700287887 /* Model */,
+				5BB9ECC613E0845E00287887 /* View */,
+				5BB9ECC813E084A000287887 /* Controller */,
 				5B551C6413D9FCCA0079EB05 /* Supporting Files */,
 			);
 			path = "BlockDie Calculator v3";
@@ -130,9 +130,11 @@
 		5B551C6413D9FCCA0079EB05 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B551C6C13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.h */,
+				5B551C6D13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.m */,
+				5B551C6F13D9FCCA0079EB05 /* MainWindow.xib */,
 				5B551C6513D9FCCA0079EB05 /* BlockDie Calculator v3-Info.plist */,
 				5B551C6613D9FCCA0079EB05 /* InfoPlist.strings */,
-				5B551C6913D9FCCA0079EB05 /* main.m */,
 				5B551C6B13D9FCCA0079EB05 /* BlockDie Calculator v3-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -155,6 +157,33 @@
 				5B551C8813D9FCCA0079EB05 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BB9ECC613E0845E00287887 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B551C7513D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5BB9ECC713E0848700287887 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B551C6913D9FCCA0079EB05 /* main.m */,
+				5BB9ECC913E084E700287887 /* CalculatorBrain.h */,
+				5BB9ECCA13E084E700287887 /* CalculatorBrain.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5BB9ECC813E084A000287887 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B551C7213D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.h */,
+				5B551C7313D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +294,7 @@
 				5B551C6A13D9FCCA0079EB05 /* main.m in Sources */,
 				5B551C6E13D9FCCA0079EB05 /* BlockDie_Calculator_v3AppDelegate.m in Sources */,
 				5B551C7413D9FCCA0079EB05 /* BlockDie_Calculator_v3ViewController.m in Sources */,
+				5BB9ECCB13E084E700287887 /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +470,7 @@
 				5B551C9313D9FCCA0079EB05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B551C9413D9FCCA0079EB05 /* Build configuration list for PBXNativeTarget "BlockDie Calculator v3Tests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +479,7 @@
 				5B551C9613D9FCCA0079EB05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
